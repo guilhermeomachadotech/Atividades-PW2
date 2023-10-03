@@ -1,0 +1,130 @@
+body{
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+    background-image: url(img/mI.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: Verdana;
+    overflow-x: hidden;
+}
+.container-fluid{
+    padding:0;
+}
+.containerConteudo{
+   flex:1 1 0;
+   padding:5px;
+}
+.containerHeader{
+    width:100%;
+}
+.headerTitulo{
+    font-size:30px;
+    padding:10px;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    background-color: #6B2723;
+}
+.containerImg{
+   
+    text-align: center;
+    justify-content: center;
+    padding:15px;
+}
+.containerForm{
+
+    background-color: #B8544F;
+    margin:10px;
+    padding:10px;
+    border:solid #FFFF;
+}
+.imgTitulo{
+    border-radius: 2%;
+    width:700px;
+}
+.imgQuiz{
+    border-radius: 2%;
+    width:400px;
+}
+.containerDescTitulo{
+    margin:10px;
+    padding:5px;
+    background-color: #6B2723;
+    text-align: center;
+    justify-content: center;
+    border:solid #FFFF;
+}
+.txtDescTitulo{
+    font-size:20px;
+    color:white;
+}
+form .labelQuestao{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Verdana;
+}
+form .labelRadio{
+    font-size: 15px;
+}
+.containerBotao{
+    padding-top:10px;
+    text-align: center;
+    justify-content: center;
+
+}
+.botao{
+    padding:5px;
+    border-radius:2%;
+    background-color: #FF5842;
+    color:white;
+    font-weight: bolder;
+}
+.botao:hover{
+    padding:5px;
+    border-radius:2%;
+    background-color: #991D0C;
+    color:rgb(197, 192, 192);
+    font-weight: bolder;
+}
+label{
+    color:white;
+}
+footer{
+    background-color: #943f3b;
+}
+.containerTxtFooter{
+    text-align: center;
+    justify-content: center;
+}
+.txtFooter{
+    color:white;
+    font-size: 20px;
+}
+.containerResposta{
+    margin:10px;
+    padding:5px;
+    background-color: #6B2723;
+    
+    border:solid #FFFF;
+}
+.txtRespostaCertaErrada{
+    padding:5px;
+    font-size:20px;
+    color:white;
+}
+.respostaTitulo{
+    text-align: center;
+    margin:10px;
+    font-weight: bolder;
+    font-size:25px;
+    color:white;
+}
+.txtPorcentagem{
+    padding:5px;
+    font-size:20px;
+    color:white;
+    text-align: center;
+}
