@@ -1,0 +1,82 @@
+/*Pagina de login*/
+
+body{
+    font-family:Verdana;
+    background-color:#FFDEAD;
+
+}
+.txtPaginaLogin{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:10px;
+    color:#568BB3;
+}
+form{
+    text-align:center;
+    background-color:#568BB3;
+    border:4px solid #B39568;
+    padding:15px;
+    margin-top:10px;
+    margin-left:100px;
+    margin-right:100px;
+}
+.txtTipoLogin{
+    font-size:20px;
+    color:white;
+}
+.input{
+    margin-left:100px;
+    margin-right:100px;
+}
+.logar{
+    
+    background-color: #B39568;
+    border-color:#274B66;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+}
+.logar:hover{
+    background-color: #66491D;
+    border-color:#274B66;
+    color:white;
+}
+
+/*Galeria*/
+.txtBandas{
+    font-size:30px;
+    text-align:center;
+    font-weight:bold;
+    margin-bottom:10px;
+    color:#568BB3;
+}
+.imgBanda{
+    width:50%;
+}
+.coluna{
+    height:100%;
+}
+.txtNomeBandas{
+    font-size:25px;
+    text-align:center;
+    align-items:center;
+    color:white;
+    position:relative;
+
+}
+
+.linhasGaleria{
+    background-color:#568BB3;
+    border:4px solid #B39568;
+    padding:1%;
+    margin-bottom:1%;
+    height:100%;
+}
+.txtDescBanda{
+    font-size:18px;
+    margin-top:15px;
+    text-align:justify;
+    color:white;
+    padding-right:10px;
+}
